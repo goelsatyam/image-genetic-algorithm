@@ -79,7 +79,7 @@ def solve(name):
 
 	img = Image.open(name)	
 	x,y = img.size
-	width, height = x*2+300,y*2+100
+	width, height = x*2+300,y*2+50
 	bw = np.array(img)
 	print bw.shape
 
@@ -132,4 +132,4 @@ def showText(score):
 	screen.blit(textSurfaceObj, textRectObj)
 
 
-solve('Skull.jpg')	
+solve('taj.jpg')	
